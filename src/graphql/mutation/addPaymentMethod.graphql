@@ -1,0 +1,17 @@
+mutation AddPaymentMethod($paymentMethod: AddPaymentMethodDto!) {
+  addPaymentMethod(addPaymentDetails: $paymentMethod) {
+    id
+    paymentMethodId
+    timestamp
+    cardName
+    card {
+      id
+      expMonth
+      expYear
+      dynamicLast4
+      brand
+      last4
+      name
+    }
+  }
+}
