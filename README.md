@@ -1,6 +1,6 @@
 # GraphQLTypeScriptDemo
 
-###Following things are implemented related to graphql.
+### Following things are implemented related to graphql.
 - Apollo code-gen to create typings for graphql query, mutation to get a typesafe environment and less buggy code.(Logic for the codegen is in codeine.yml in the roort of the project)
 
 - Used apollo client with auto generated hooks to make the code more compact and cleaner
